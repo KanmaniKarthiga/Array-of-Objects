@@ -8,9 +8,9 @@
     <title>Array of Objects Handson</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <pre>
+    <h1>Array Of Objects</h1><hr>
+    <pre>DATA:
         let studentRecords = [ {name: 'John', id: 123, marks : 98 },
           {name: 'Baba', id: 101, marks : 23 },
           {name: 'yaga', id: 200, marks : 45 },
@@ -52,7 +52,7 @@
     </pre>
 
     <p>Q5. This time we want to get only the names of the students who scored more than 50 marks from the same dataset
-        used above.</p>
+            used above.</p>
     <pre class="ans">
         let names = studentRecords.filter((item) => {
             if (item.marks > 50){
@@ -73,7 +73,7 @@
     </pre>
 
     <p>Q7. This time we are required to print the total marks of the students with marks greater than 50 after a grace
-        of 15 marks has been added to those students who scored less than 50.</p>
+            of 15 marks has been added to those students who scored less than 50.</p>
     <pre class="ans">
         let grace = studentRecords.filter((item)=>{
             return item.marks < 50
@@ -97,7 +97,15 @@
     </pre>
 
     <p>Q8. Create 6 objects , each object will have name, class, roll no as properties. Store these objects in an array of objects. </p>
-
+    <pre class="ans">
+        let studentRecords1 = [ 
+            {name: 'Shethal', class: 'EA23', rollno : 13},
+            {name: 'Sanofer', class: 'EA22', rollno : 23},
+            {name: 'Karthiga', class: 'EA23', rollno : 15},
+            {name: 'Mathew', class: 'EA21', rollno : 26},
+            {name: 'Rahul', class: 'EA19', rollno : 19},
+            {name: 'Farhana', class: 'EA20', rollno : 8}]
+    </pre>
     <script src="./script.js"></script>
 </body>
 

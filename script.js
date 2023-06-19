@@ -61,3 +61,13 @@ let marks2 = arr.filter((item)=>{
 })
 let final = marks2[0]+total
 console.log(final)
+
+// Q8...
+let studentRecords1 = [ 
+    {name: 'Shethal', class: 'EA23', rollno : 13},
+    {name: 'Sanofer', class: 'EA22', rollno : 23},
+    {name: 'Karthiga', class: 'EA23', rollno : 15},
+    {name: 'Mathew', class: 'EA21', rollno : 26},
+    {name: 'Rahul', class: 'EA19', rollno : 19},
+    {name: 'Farhana', class: 'EA20', rollno : 8}]
+console.log(studentRecords1)
